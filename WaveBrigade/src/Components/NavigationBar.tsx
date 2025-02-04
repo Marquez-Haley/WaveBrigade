@@ -4,7 +4,6 @@ import {
     NavbarContent,
     NavbarItem,
   } from "@nextui-org/react";
-  import React from "react";
   
   import { RiPulseFill } from "react-icons/ri";
   import { IoIosSettings } from "react-icons/io";
@@ -17,7 +16,7 @@ import {
   } from "@heroui/react";
   
   export default function NavigationBar() {
-    const {isOpen, onOpen, onOpenChange} = useDisclosure();
+    const {onOpen} = useDisclosure();
     return (
       <div>
         <Navbar
