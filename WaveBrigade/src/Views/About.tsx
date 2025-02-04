@@ -6,7 +6,7 @@ export default function About() {
     <div className="container mx-auto mb-10">
         <div className="text-center mt-10">
             <h1 className="text-5xl pb-3">WaveBrigade</h1>
-            <p >University of Nevada, Reno</p>
+            <p>University of Nevada, Reno</p>
             <p>Department of Computer Science & Engineering</p>
             <p>CS 426: Senior Projects in Computer Science</p>
             <p>Spring 2025</p>
