@@ -1,5 +1,4 @@
 //import Divider from "@heroui/divider";
-import React from "react";
 import NavigationBar from "../Components/NavigationBar"
 import { useState } from "react";
 import TeamMembers from "../Components/TeamMembers";

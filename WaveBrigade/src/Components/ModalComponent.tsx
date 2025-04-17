@@ -1,5 +1,4 @@
 import { ReactElement } from "react";
-import React from "react";
 
 interface IModalComponent {
   onAction: (e: any) => void;
@@ -16,16 +15,9 @@ interface IModalComponent {
   isButton1Disabled?: boolean;
 }
 
-interface photoLabData {
-  experimentTitle: string;
-  experimentsDesc: string;
-  imageSource: string;
-  caption: string;
-}
 
 
-
-export default function ModalComponent(props: IModalComponent, photoLabData: photoLabData) {
+export default function ModalComponent(props: IModalComponent) {
   const handleModalClick = (e: React.MouseEvent) => e.stopPropagation();
 
   if(!props.isOpen) return null; //if modal is closed, don't open

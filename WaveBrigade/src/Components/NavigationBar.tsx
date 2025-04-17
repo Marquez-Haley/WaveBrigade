@@ -5,7 +5,7 @@ import {
   NavbarContent,
   NavbarItem,
 } from "@nextui-org/react";
-import React, {useState} from "react";
+import {useState} from "react";
 
 import { RiPulseFill } from "react-icons/ri";
 import { CiCircleInfo } from "react-icons/ci";

@@ -1,5 +1,4 @@
-import React from 'react';
-import Avatar, { ConfigProvider } from 'react-avatar';
+import Avatar from 'react-avatar';
 import whodis from "../assets/eman.jpeg"; //Correctly sized, do not touch
 import haleyPic from "../assets/haley.jpeg"; //Correctly sized, do not touch
 import sebasPic from "../assets/sebas.jpeg"; //Correctly sized, do not touch
