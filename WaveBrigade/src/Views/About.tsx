@@ -22,17 +22,25 @@ export default function About() {
         <div className="w-4/5 mx-auto mb-10">
             
             <section id="header" className="py-5 text-lg">
-                <h1 className="text-4xl pb-2 text-purple-500 font-bold">WaveBrigade</h1>
-                <p>University of Nevada, Reno Department of Computer Science & Engineering</p>
-                {/* <p>Department of Computer Science & Engineering</p> */}
-                <p>CS 426: Senior Projects in Computer Science - Team 09</p>
-                <p>Spring 2025</p>
             </section>
 
             <div id="description" className="text-justify justify-left text-lg">
                 <h1 className="text-purple-500 text-4xl mb-2 font-bold">What is WaveBrigade?</h1>
-                <p className="mb-4">WaveBrigade, inspired by Kahoot and TopHat, is a web-based platform with the purpose of deepening the learning experience by providing instructors with an interactive and user-friendly interface to create lesson plans for students. These lesson plans will be used and presented to students to collect real-time responses from them, utilizing the EmotiBit. In addition, this data will be illustrated through charts and graphs with consideration of their respective data type. WaveBrigade offers an environment where instructors can create virtual lobbies, create lesson plans, and introduce different types of media (such as videos and images) to enhance engagement amongst students. Students can join these lobbies with an access code, participate in the session, and capture their reactions to the media via the EmotiBit. Therefore, students can understand and reflect on the data captured to better understand the lesson material. </p>
-                <p>WaveBrigade’s main functionality for instructors includes the creation of virtual lobbies, lesson plans, and the ability to manage a dynamic dashboard containing the media chosen, and the data collected from specific students. The host will be able to record the lobby as well as manage the data report by viewing or downloading it. A live chat functionality will be included for students and instructors to talk to each other when they need to. Our goal is not only to provide a platform for real-time interaction but to create a sense of community and resource-sharing among educators and students. </p>
+                <p>University of Nevada, Reno Department of Computer Science & Engineering</p>
+                <p>Department of Computer Science & Engineering</p>
+                <p>CS 426: Senior Projects in Computer Science - Team 09</p>
+                <p className="mb-4">Spring 2025</p> 
+                <p>Inspired by Kahoot and TopHat, WaveBrigade
+                            is a web-based platform with the purpose of studying reactions to media while
+                            deepening the learning experience by providing instructors with an environment where instructors can 
+                            create lesson plans for students in the form of experiments. Instructors are able to create virtual lobbies utilizing the experiment 
+                            and present media to students while collecting students' real-time biometric responses, such as temperature, heart rate, and electrodermal activity 
+                            utilizing the EmotiBit device. Data is illustrated in charts and graphs with consideration 
+                            of their respective data type. Lobbies provide a live chat, which allows for rapid communication
+                            between students and instructors. Once the experiment concludes, instructors are able to download
+                            participants' data report by viewing or downloading it. 
+                            WaveBrigade aims to not only not only to provide a fun platform for real-time interaction, 
+                            but also help students understand and reflect on their captured data.</p>
             </div>
 
 
@@ -69,7 +77,23 @@ export default function About() {
                 <div className="mb-6">
                     <div id="description" className="text-justify justify-left"> 
                         <h1 className="text-2xl mb-2 font-bold">What is WaveBrigade?</h1>
-                        <p className="mb-4">WaveBrigade, inspired by Kahoot and TopHat, is a web-based platform with the purpose of deepening the learning experience by providing instructors with an interactive and user-friendly interface to create lesson plans for students. These lesson plans will be used and presented to students to collect real-time responses from them, utilizing the EmotiBit. In addition, this data will be illustrated through charts and graphs with consideration of their respective data type. WaveBrigade offers an environment where instructors can create virtual lobbies, create lesson plans, and introduce different types of media (such as videos and images) to enhance engagement amongst students. Students can join these lobbies with an access code, participate in the session, and capture their reactions to the media via the EmotiBit. Therefore, students can understand and reflect on the data captured to better understand the lesson material. </p>
+
+                    
+
+                        <p className="mb-4">
+                            Inspired by Kahoot and TopHat, WaveBrigade
+                            is a web-based platform with the purpose of studying reactions to media while
+                            deepening the learning experience 
+                            deepening the learning experience by providing instructors with an environment where instructors can 
+                            create lesson plans for students in the form of experiments. Instructors are able to create virtual lobbies utilizing the experiment 
+                            and present media to students while collecting students' real-time biometric responses, such as temperature, heart rate, and electrodermal activity 
+                            utilizing the EmotiBit device. Data is illustrated in charts and graphs with consideration 
+                            of their respective data type. Lobbies provide a live chat, which allows for rapid communication
+                            between students and instructors. Once the experiment concludes, instructors are able to download
+                            participants' data report by viewing or downloading it. 
+                            WaveBrigade aims to not only not only to provide a fun platform for real-time interaction, 
+                            but also help students understand and reflect on their captured
+                        </p>
                     </div>
 
                 </div>

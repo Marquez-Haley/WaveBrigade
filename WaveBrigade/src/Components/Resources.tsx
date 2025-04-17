@@ -7,7 +7,7 @@ export default function Resources () {
             <h1 className="text-purple-500 text-4xl mb-5 mt-20 font-bold text-left">Resources</h1>
 
             <section id="problem-domain-book">
-                <h1 className="text-2xl mb-2 font-bold">Problem Domain Book</h1>
+                <h2 className="text-2xl mb-2 font-bold">Problem Domain Book</h2>
                 <a href="https://www.oreilly.com/library/view/designing-data-intensive-applications/9781663728289/" target="_blank" rel="noopener noreferrer" className="text-purple-500 underline font-bold">
                     The Big Ideas Behind Reliable, Scalable, and Maintainable Systems by M. Kleppmann,  Sebastopol, 2018.
                 </a>
@@ -15,14 +15,14 @@ export default function Resources () {
             </section>
 
             <section id="reference-articles">
-                <h1 className="mt-5 text-2xl mb-2 font-bold">Reference Articles</h1>
+                <h2 className="mt-5 text-2xl mb-2 font-bold">Reference Articles</h2>
                 <a href="https://doi.org/10.1109/cic.2004.1443001." target="_blank" rel="noopener noreferrer" className="text-purple-500 underline font-bold">
-                    <p>M. Oefinger, W. Zong, M. Krieger, and R. G. Mark, “An interactive web-based tool for multi-scale physiological data visualization,” pp. 569–571, Jul. 2005</p>
+                    M. Oefinger, W. Zong, M. Krieger, and R. G. Mark, “An interactive web-based tool for multi-scale physiological data visualization,” pp. 569–571, Jul. 2005
                 </a>
                 <p className="pb-5">Journal article that introduces a web-based tool that improves the accuracy and efficiency of analyzing long-term ECG data in cardiovascular studies. The article highlights the development of the tool that enables real-time visualization and analysis of ECG signals. A “point-and-click” interface is acknowledged by the study as well which allows users to switch between data. The tool’s approach to data management and visualization can help improve WaveBrigade’s capabilities in designing a user-friendly platform. </p>
 
                 <a href="https://doi.org/10.1177/1477878518805308" target="_blank" rel="noopener noreferrer" className="text-purple-500 underline font-bold">
-                    <p>J. R. Reidenberg and F. Schaub, “Achieving Big Data Privacy In Education,” Theory and Research in Education, vol. 16, no. 3, pp. 263–279, Oct. 2018</p>
+                    J. R. Reidenberg and F. Schaub, “Achieving Big Data Privacy In Education,” Theory and Research in Education, vol. 16, no. 3, pp. 263–279, Oct. 2018
                 </a>
                 <p className="pb-4">Journal article that describes the importance of Big Data that creates privacy risks when used in educational technologies. The article highlights the importance of transparency, security, and accountability in Big Data for education. This is particularly important, as a major part of the functionality of WaveBrigade is its data collection and handling. The goal is to be transparent with the user by letting them know where the data is going and asking if they consent to the data being collected. </p>
             </section>
@@ -32,16 +32,17 @@ export default function Resources () {
 
                 <div id="brainflow" className="text-justify justify-left text-lg">
                     <a href="https://brainflow.org" target="_blank" rel="noopener noreferrer" className="text-purple-500 underline font-bold">
-                        <p>Brainflow</p>
+                        Brainflow
                     </a>
-                    <p className="pb-5">BrainFlow is a powerful framework that enables seamless integration of biosensor data across multiple platforms. 
+                    <p className="pb-5">
+                        BrainFlow is a powerful framework that enables seamless integration of biosensor data across multiple platforms. 
                         It served as the bridge between the EmotiBit hardware and WaveBrigade, providing reliable real-time streaming of biometric signals like heart rate, electrodermal activity, and temperature.
                     </p>
                 </div>
 
                 <div id="deno" className="text-justify justify-left text-lg">
                     <a href="https://deno.com" target="_blank" rel="noopener noreferrer" className="text-purple-500 underline font-bold">
-                        <p>Deno</p>
+                        Deno
                     </a>
                     <p className="pb-5">
                         Deno was utlilized in our backend to build lightweight, 
@@ -50,9 +51,20 @@ export default function Resources () {
                         without external dependencies.</p>
                 </div>
                 
+                <div id="docker" className="text-justify justify-left text-lg">
+                    <a href="https://www.docker.com" target="_blank" rel="noopener noreferrer" className="inline text-purple-500 underline font-bold">
+                        Docker
+                    </a>
+                    <p className="pb-5">
+                        Docker was utlilized to ensure consistent cross-platform performance.
+                        It also facilitated the development process by consolidating all necessary tools and dependencies 
+                        in the same environment.  
+                    </p>
+                </div>
+
                 <div id="electron" className="text-justify justify-left text-lg">
                     <a href="https://www.electronjs.org/docs/latest" target="_blank" rel="noopener noreferrer" className="text-purple-500 underline font-bold">
-                        <p>Electron</p>
+                        Electron
                     </a>
                     <p className="pb-5">
                         Wrapping WaveBrigade's Host functionalty using Electron played a large role 
@@ -63,7 +75,7 @@ export default function Resources () {
 
                 <div id="EmotiBit" className="text-justify justify-left text-lg">
                     <a href="https://www.emotibit.com/" target="_blank" rel="noopener noreferrer" className="text-purple-500 underline font-bold">
-                        <p>EmotiBit</p>
+                        EmotiBit
                     </a>
                     <p className="pb-5">
                         The EmotiBit website offers a lot of useful information about the device’s 
@@ -75,7 +87,7 @@ export default function Resources () {
 
                 <div id="HeroUI" className="text-justify justify-left text-lg">
                     <a href="https://www.heroui.com" target="_blank" rel="noopener noreferrer" className="text-purple-500 underline font-bold">
-                        <p>HeroUI</p>
+                        HeroUI
                     </a>
 
                     <p className="pb-5">
@@ -89,7 +101,7 @@ export default function Resources () {
 
                 <div id="Kahoot" className="text-justify justify-left text-lg">
                     <a href="https://kahoot.it" target="_blank" rel="noopener noreferrer" className="text-purple-500 underline font-bold">
-                        <p>Kahoot</p>
+                        Kahoot
                     </a>
 
                     <p className="pb-5">
@@ -102,7 +114,7 @@ export default function Resources () {
 
                 <div id="nodejs" className="text-justify justify-left text-lg">
                     <a href="https://nodejs.org/en" target="_blank" rel="noopener noreferrer" className="text-purple-500 underline font-bold">
-                        <p>Node.js</p>
+                        Node.js
                     </a>
                     <p className="pb-5"> 
                         A classic runtime, Node.js facilitated our TypeScript-based technology 
@@ -112,7 +124,7 @@ export default function Resources () {
 
                 <div id="postgresql" className="text-justify justify-left text-lg">
                     <a href="https://www.postgresql.org" target="_blank" rel="noopener noreferrer" className="text-purple-500 underline font-bold">
-                        <p>PostgreSQL</p>
+                        PostgreSQL
                     </a>
                     <p className="pb-5">
                         PostgreSQL served as our relational database solution, offering scalability and data integrity features that make it a 
@@ -123,7 +135,7 @@ export default function Resources () {
 
                 <div id="React" className="text-justify justify-left text-lg">
                     <a href="https://react.dev" target="_blank" rel="noopener noreferrer" className="text-purple-500 underline font-bold w-min">
-                        <p>React</p>
+                        React
                     </a>
                     <p className="pb-5">
                         A powerful and reactive web development framework, React served as the frontend framework utilized in WaveBrigade, 
@@ -133,7 +145,7 @@ export default function Resources () {
 
                 <div id="Socket.io" className="text-justify justify-left text-lg">
                     <a href="https://socket.io" target="_blank" rel="noopener noreferrer" className="text-purple-500 underline font-bold">
-                        <p>Socket.IO</p>
+                        Socket.IO
                     </a>
                     <p className="pb-5">
                         Socket.IO facilitated real-time, 
@@ -145,7 +157,7 @@ export default function Resources () {
 
                 <div id="TailwindCSS" className="text-justify justify-left text-lg">
                     <a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer" className="text-purple-500 underline font-bold">
-                        <p>Tailwind CSS</p>
+                        Tailwind CSS
                     </a>
                     <p className="pb-5">
                         Tailwind CSS was instrumental in creating a clean and responsive user interface.
@@ -156,7 +168,7 @@ export default function Resources () {
 
                 <div id="TypeScript" className="text-justify justify-left text-lg">
                     <a href="https://www.typescriptlang.org/docs/" target="_blank" rel="noopener noreferrer" className="text-purple-500 underline font-bold">
-                        <p>TypeScript</p>
+                        TypeScript
                     </a>
                     <p className="pb-5">
                         TypeScript served as the main language used in the development of WaveBrigade. 

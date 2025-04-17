@@ -8,15 +8,8 @@ import {
 import React, {useState} from "react";
 
 import { RiPulseFill } from "react-icons/ri";
-import { IoIosSettings } from "react-icons/io";
-import { Link } from "react-router-dom";
 import { CiCircleInfo } from "react-icons/ci";
 import { IoMdMenu } from "react-icons/io";
-
-import {
-  Button,
-  useDisclosure
-} from "@heroui/react";
 
 export interface INavbarProps {
   onOpenInfo: () => void;
