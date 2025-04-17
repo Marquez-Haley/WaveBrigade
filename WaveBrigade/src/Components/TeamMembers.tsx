@@ -6,8 +6,8 @@ import sebasPic from "../assets/sebas.jpeg"; //Correctly sized, do not touch
 import davePic from "../assets/davepic.jpg"; //Correctly sized, do not touch
 import saraPic from "../assets/sarapic.jpeg"; //Correctly sized, do not touch
 import lauraPic from "../assets/lauraPic.jpg" //Correctly sized, do not touch
-import uncPic from "../assets/unc-linkedin.jpeg";
-import joannaPic from "../assets/joanna-placeholder.png"
+import uncPic from "../assets/araampic.jpeg";
+import joannaPic from "../assets/joannapic.jpeg"
 
 
 export default function TeamMembers(){
